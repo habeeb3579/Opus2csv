@@ -17,8 +17,6 @@ and provides flexibility in specifying the output path.
 
 ------------------------------------------------------------------------
 
--   [Introduction](#introduction)
-
 -   [Installation](#installation)
 
 -   [Usage](#usage)
@@ -30,14 +28,6 @@ and provides flexibility in specifying the output path.
 -   [Example](#example)
 
 
-### Introduction
-
-------------------------------------------------------------------------
-
-The Opus to Array Converter is a command-line tool that allows users to
-convert Opus Binary Files to either CSV or Array format. It supports
-different storage modes and provides flexibility in specifying the
-output path.
 
 ### Installation 
 
@@ -51,7 +41,7 @@ To install the Opus to Array Converter, follow these steps:
 
 2.  Change into the project directory:
 
-`cd OPUS2CSV`
+`cd Opus2csv`
 
 3.  Install the required dependencies:
 
@@ -117,8 +107,6 @@ The project follows a specific folder structure:
     -   test_data/
 
     -   `convert.py` (main file)
-
-    -   `requirements.txt`
 
     -   `README.md`
 
