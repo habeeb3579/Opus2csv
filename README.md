@@ -37,15 +37,15 @@ To install the Opus to Array Converter, follow these steps:
 
 1.  Clone the repository:
 
-`git clone [https://github.com/habeeb3579/Opus2csv.git](https://github.com/habeeb3579/Opus2csv.git)`
+    git clone https://github.com/habeeb3579/Opus2csv.git
 
 2.  Change into the project directory:
 
-`cd Opus2csv`
+    cd Opus2csv
 
 3.  Install the required dependencies:
 
-`pip install -r requirements.txt`
+    pip install -r requirements.txt
 
 ### Usage 
 
@@ -119,10 +119,10 @@ The project follows a specific folder structure:
 To convert Opus Binary Files in the `input_folder` to CSV format, you
 can use the following command:
 
-`python3 convert.py input_folder -m csv -o output_folder`
+    python3 convert.py input_folder -m csv -o output_folder
 
 To convert Opus Binary Files in the `input_folder` to Array format, you
 can use the following command:
 
-`python3 convert.py input_folder -m array -o output_folder`
+    python3 convert.py input_folder -m array -o output_folder
 
