@@ -17,20 +17,20 @@ and provides flexibility in specifying the output path.
 
 ------------------------------------------------------------------------
 
--   [Introduction](#intro)
+-   [Introduction](#introduction)
 
--   [Installation](#install)
+-   [Installation](#installation)
 
--   [Usage](#use)
+-   [Usage](#usage)
 
--   [Options](#opt)
+-   [Options](#options)
 
--   [Folder Structure](#fold)
+-   [Folder Structure](#folderstructure)
 
--   [Example](#ex)
+-   [Example](#example)
 
 
-### Introduction {#intro}
+### Introduction
 
 ------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ convert Opus Binary Files to either CSV or Array format. It supports
 different storage modes and provides flexibility in specifying the
 output path.
 
-### Installation {#install}
+### Installation 
 
 ------------------------------------------------------------------------
 
@@ -57,46 +57,46 @@ To install the Opus to Array Converter, follow these steps:
 
 `pip install -r requirements.txt`
 
-### Usage {#use}
+### Usage 
 
 ------------------------------------------------------------------------
 
 Run
 
-`python3 converter.py -h`
+    python3 converter.py -h
 
 The usage of the converter is as follows:
 
-usage: opus2arr_converter [options] input_file
+    usage: opus2arr_converter [options] input_file
 
-Function to Convert Opus Binary Files to Arrays or CSV
+    Function to Convert Opus Binary Files to Arrays or CSV
 
-positional arguments: FOLDER_PATH Path to the folder containing Opus
-Binary Files to be converted
+    positional arguments: FOLDER_PATH Path to the folder containing Opus
+    Binary Files to be converted
 
-options:
+    options:
 
--h, ---help show this help message and exit
+    -h, ---help show this help message and exit
 
--m {csv,array} [{csv,array} ...], ---mode {csv,array} [{csv,array} ...]
+    -m {csv,array} [{csv,array} ...], ---mode {csv,array} [{csv,array} ...]
 
-Storage mode (csv or array) (default: array)
+    Storage mode (csv or array) (default: array)
 
--o out, ---out out CSV/Array output path, the default is the current
-directory (default: .)
+    -o out, ---out out CSV/Array output path, the default is the current
+    directory (default: .)
 
-### Options {#opt}
+### Options 
 
 ------------------------------------------------------------------------
 
--h, --help: Show the help message and exit.
+    -h, --help: Show the help message and exit.
 
--m, --mode: Specify the storage mode (csv or array). Default is array.
+    -m, --mode: Specify the storage mode (csv or array). Default is array.
 
--o, --out: Specify the output path for CSV/Array files. Default is the
-current directory.
+    -o, --out: Specify the output path for CSV/Array files. Default is the
+    current directory.
 
-### Folder Structure {#fold}
+### FolderStructure 
 
 ------------------------------------------------------------------------
 
@@ -138,11 +138,3 @@ can use the following command:
 
 `python3 convert.py input_folder -m array -o output_folder`
 
-### Requirements
-
-------------------------------------------------------------------------
-
-Ensure you have the required dependencies installed. You can install
-them using:
-
-`pip install -r requirements.txt`
