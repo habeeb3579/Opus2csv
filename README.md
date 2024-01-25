@@ -86,31 +86,6 @@ The usage of the converter is as follows:
     -o, --out: Specify the output path for CSV/Array files. Default is the
     current directory.
 
-### FolderStructure 
-
-------------------------------------------------------------------------
-
-The project follows a specific folder structure:
-
--   Opus2csv/
-
-    -   utils/
-
-        -   file_list.py
-
-        -   file_reader.py
-
-        -   grp_wvn.py
-
-        -   parsedFiles.py
-
-    -   test_data/
-
-    -   convert.py (main file)
-
-    -   README.md
-
-    -   requirements.txt
 
 ### Example
 
