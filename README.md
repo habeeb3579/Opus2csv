@@ -37,15 +37,15 @@ To install the Opus to Array Converter, follow these steps:
 
 1.  Clone the repository:
 
-    git clone https://github.com/habeeb3579/Opus2csv.git
+        git clone https://github.com/habeeb3579/Opus2csv.git
 
 2.  Change into the project directory:
 
-    cd Opus2csv
+        cd Opus2csv
 
 3.  Install the required dependencies:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 ### Usage 
 
@@ -92,25 +92,25 @@ The usage of the converter is as follows:
 
 The project follows a specific folder structure:
 
--   Bruker_Opus_CSV/
+-   Opus2csv/
 
     -   utils/
 
-        -   `file_list.py`
+        -   file_list.py
 
-        -   `file_reader.py`
+        -   file_reader.py
 
-        -   `grp_wvn.py`
+        -   grp_wvn.py
 
-        -   `parsedFiles.py`
+        -   parsedFiles.py
 
     -   test_data/
 
-    -   `convert.py` (main file)
+    -   convert.py (main file)
 
-    -   `README.md`
+    -   README.md
 
-    -   `requirements.txt`
+    -   requirements.txt
 
 ### Example
 
